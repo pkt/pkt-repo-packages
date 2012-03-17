@@ -1,0 +1,16 @@
+Source: pkg-repo-ppa-pktoss-testing
+Section: misc
+Priority: extra
+Maintainer: Pantelis Koukousoulas <pktoss@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://github.com/pkt/pkt-repo-packages
+#Vcs-Git: http://github.com/pkt/pkt-repo-packages
+
+Package: pkg-repo-ppa-pktoss-testing
+Architecture: all
+Depends: ${misc:Depends}
+Description: Package encapsulating a repository
+ This virtual package manages the lifecycle of the corresponding
+ repository. This is especially useful to make sure certain repositories
+ are installed "properly" (e.g., wrt pinning) across your computers.

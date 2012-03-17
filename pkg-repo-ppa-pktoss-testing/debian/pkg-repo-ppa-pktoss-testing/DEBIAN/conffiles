@@ -1,0 +1,2 @@
+/etc/apt/sources.list.d/ppa_pktoss_testing.list
+/etc/apt/preferences.d/30_ppa_pktoss_testing

@@ -1,0 +1,3 @@
+Package: *
+Pin: release o=GetDeb
+Pin-Priority: 400

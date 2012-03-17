@@ -1,0 +1,12 @@
+Package: pkg-repo-medibuntu
+Version: 1.0
+Architecture: all
+Maintainer: Pantelis Koukousoulas <pktoss@gmail.com>
+Installed-Size: 50
+Section: misc
+Priority: extra
+Homepage: http://github.com/pkt/pkt-repo-packages
+Description: Package encapsulating a repository
+ This virtual package manages the lifecycle of the corresponding
+ repository. This is especially useful to make sure certain repositories
+ are installed "properly" (e.g., wrt pinning) across your computers.
